@@ -1,0 +1,44 @@
+桥接模式
+    核心：将继承关系 改成 聚合关系
+
+    强调多聚合，少继承。
+
+    随着继承深度的增加，子类原来越多，难以维护
+
+
+汽车    轿车
+                汽油发动机轿车
+                电动发动机轿车
+        SUV
+                汽油发动机SUV
+                电动发动机SUV
+
+public abstract Car{
+
+}
+
+public class Bus extends Car(){
+
+}
+
+public class OilBus extends Bus{
+
+}
+
+
+
+改成桥接模式后
+
+汽车-(发动机额)
+
+public abstract Car{
+    public Engine engine;
+}
+
+public class Bus extends Car(){
+    public void setEngine(Engine engine){
+        this.engind = engine;
+    }
+}
+
+
