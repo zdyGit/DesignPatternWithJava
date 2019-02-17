@@ -1,0 +1,14 @@
+1、生产同一类产品，
+2、生产方式有2种；
+    2.1根据需求方传进来的标识符,配合switch，生产具体的产品
+       eg:  public static BaseProductClass getProduct(String sign){
+            switch(sign)
+                case :
+                    new ();
+       }
+    2.2 每种产品用专有方法生产
+        eg: public static BaseProductClass getProductA(){ return new ProductA()}
+            public static BaseProductClass getProductB(){ return new ProductB()}
+
+3、有需要生产新的产品时，无论采用上述哪种方式生产，要么扩展分支，增加case 语句(2.1 方式)；要么增加新的方法(2.2 方式)
+   都需要修改FruitFactory方法，违背了开放-封闭原则(OCP);但是考虑到设计模式中存在 单一职责原则(SRP）,建议用方法2.2
