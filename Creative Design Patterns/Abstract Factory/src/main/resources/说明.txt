@@ -1,0 +1,32 @@
+1、在工厂模式的基础上对工厂类进行扩展，工厂模式中，一个工厂类理论生产一种产品；抽象工厂方法，提供工厂类接口，使工厂类具有生产多中产品的能力；
+
+工厂方法中：
+public interface iFruitFactory{
+    Fruit getFruit();
+}
+
+public class AppleFactory implements iFruitFactory{
+    public Fruit getFruit(){
+        return new Apple();
+    }
+}
+
+
+抽象工厂方法中
+
+public interface iFruitFactory{
+    Fruit getFruit();
+
+    Candy getCandy();
+}
+
+public class AppleFactory implements iFruitFactory{
+
+    public Fruit getFruit(){
+        return  new Apple();
+    }
+
+    public Candy getCandy(){
+        return new WaterCandy();
+    }
+}
