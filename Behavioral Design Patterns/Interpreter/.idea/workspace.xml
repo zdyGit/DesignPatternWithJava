@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29f9478e-df51-40a5-9a6c-e27660d24b6c" name="Default Changelist" comment="" />
+    <list default="true" id="33cc2914-a64e-4091-bbd3-72c65fcd0a2d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Command/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Command/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,34 +13,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="320803187">
+    <session id="1201572186">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="557" />
-          <entry key="xml" value="2" />
+          <entry key="dummy" value="1" />
+          <entry key="java" value="812" />
+          <entry key="xml" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="557" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="812" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
+          <entry key="java" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -48,86 +51,111 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="266">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/command/Chef.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interpreter/CommandElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="38">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interpreter/UpCommandElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding>
                 <element signature="e#100#101#0" expanded="true" />
-                <element signature="e#130#131#0" expanded="true" />
-                <element signature="e#69#70#0" expanded="true" />
-                <element signature="e#111#112#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#122#123#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/command/iCommand.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interpreter/DownCommandElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="76">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+              <folding>
+                <element signature="e#102#103#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/command/CookRiceCommand.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interpreter/LeftCommandElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+              <folding>
+                <element signature="e#102#103#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interpreter/RightCommandElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+              <folding>
+                <element signature="e#103#104#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interpreter/DistanceCommandElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+              <folding>
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interpreter/CommandFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-              <folding>
-                <element signature="e#138#139#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/command/CookSoupCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-              <folding>
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/command/Demander.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-              <folding>
-                <element signature="e#94#95#0" expanded="true" />
-                <element signature="e#120#121#0" expanded="true" />
-              </folding>
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/command/CommandTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/interpreter/CommandElementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+            <state relative-caret-position="152">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interpreter/NullCommandElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -148,13 +176,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/command/iCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/CookRiceCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/CookSoupCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/Demander.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/CookFoodCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/Chef.java" />
-        <option value="$PROJECT_DIR$/src/test/java/command/CommandTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interpreter/commandElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interpreter/ommandElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interpreter/CommandElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interpreter/UpCommandElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interpreter/DownCommandElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interpreter/LeftCommandElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interpreter/RightCommandElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interpreter/DistanceCommandElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interpreter/NullCommandElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interpreter/CommandFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/interpreter/CommandElementTest.java" />
       </list>
     </option>
   </component>
@@ -172,8 +204,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="501" />
-    <option name="y" value="11" />
+    <option name="x" value="280" />
     <option name="width" value="1036" />
     <option name="height" value="733" />
   </component>
@@ -191,74 +222,61 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="command" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Command" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interpreter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="command" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Command" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interpreter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="command" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Command" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="command" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Command" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interpreter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="command" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Command" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interpreter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="command" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Command" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interpreter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="command" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Command" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="command" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Command" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,11 +284,6 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gant" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="command" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -285,17 +298,17 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="CommandTest.callTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="command" />
+    <configuration name="CommandElementTest.commandExec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interpreter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="command.*" />
+          <option name="PATTERN" value="interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="command" />
-      <option name="MAIN_CLASS_NAME" value="command.CommandTest" />
-      <option name="METHOD_NAME" value="callTest" />
+      <option name="PACKAGE_NAME" value="interpreter" />
+      <option name="MAIN_CLASS_NAME" value="interpreter.CommandElementTest" />
+      <option name="METHOD_NAME" value="commandExec" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -303,7 +316,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CommandTest.callTest" />
+        <item itemvalue="JUnit.CommandElementTest.commandExec" />
       </list>
     </recent_temporary>
   </component>
@@ -312,21 +325,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="29f9478e-df51-40a5-9a6c-e27660d24b6c" name="Default Changelist" comment="" />
-      <created>1550412674685</created>
+      <changelist id="33cc2914-a64e-4091-bbd3-72c65fcd0a2d" name="Default Changelist" comment="" />
+      <created>1550497638409</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1550412674685</updated>
+      <updated>1550497638409</updated>
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="CommandTest_callTest - 2019.02.17 at 22h 28m 51s.xml">
-      <configuration name="CommandTest.callTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommandTest_callTest - 2019.02.17 at 22h 30m 48s.xml">
-      <configuration name="CommandTest.callTest" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -335,15 +340,14 @@
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2677761" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32879046" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32879046" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -362,85 +366,93 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="266">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/Demander.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/interpreter/UpCommandElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#120#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/CookFoodCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/CookRiceCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/iCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/CookSoupCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/Chef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="76">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding>
             <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#69#70#0" expanded="true" />
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/command/CommandTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/interpreter/DownCommandElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        <state relative-caret-position="76">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interpreter/LeftCommandElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interpreter/RightCommandElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interpreter/CommandElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interpreter/DistanceCommandElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interpreter/NullCommandElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interpreter/CommandFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/interpreter/CommandElementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -496,7 +508,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>command</last-edited>
+          <last-edited>interpreter</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -521,7 +533,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: JUnit:JUnit:4.12</last-edited>
+          <last-edited>Maven: JUnit:Junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
