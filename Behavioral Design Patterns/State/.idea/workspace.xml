@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19099d0c-7048-4087-a94b-8d8981c9b1ec" name="Default Changelist" comment="" />
+    <list default="true" id="15061785-b694-4e5e-9b68-543716ebcfa2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Observer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,24 +13,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1625515026">
+    <session id="968577792">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="515" />
-          <entry key="xml" value="28" />
+          <entry key="java" value="562" />
+          <entry key="xml" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="515" />
-          <entry key="XML" value="28" />
+          <entry key="JAVA" value="562" />
+          <entry key="XML" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -55,59 +56,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/observer/Star.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/state/AbstractState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="49" />
+            <state relative-caret-position="38">
+              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/observer/XXStar.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/state/AutoAddState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="133">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="7" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/observer/Follower.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/observer/ZhangSan.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/observer/ObserverTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/state/AutoDescState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="57">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/state/Computer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/state/StateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -128,11 +128,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/observer/Follower.java" />
-        <option value="$PROJECT_DIR$/src/main/java/observer/ZhangSan.java" />
-        <option value="$PROJECT_DIR$/src/main/java/observer/Star.java" />
-        <option value="$PROJECT_DIR$/src/main/java/observer/XXStar.java" />
-        <option value="$PROJECT_DIR$/src/test/java/observer/ObserverTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/state/AbstractState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/state/Computer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/state/StateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/state/AutoAddState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/state/AutoDescState.java" />
       </list>
     </option>
   </component>
@@ -181,38 +181,38 @@
         <subPane>
           <expand>
             <path>
-              <item name="observer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Observer" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="b2602c69:ProjectViewProjectNode" />
+              <item name="State" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="observer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Observer" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="b2602c69:ProjectViewProjectNode" />
+              <item name="State" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="observer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Observer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="observer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Observer" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="b2602c69:ProjectViewProjectNode" />
+              <item name="State" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="observer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Observer" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="b2602c69:ProjectViewProjectNode" />
+              <item name="State" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="observer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Observer" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="b2602c69:ProjectViewProjectNode" />
+              <item name="State" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="state" type="b2602c69:ProjectViewProjectNode" />
+              <item name="State" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -229,6 +229,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gant" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="state" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -242,17 +247,17 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ObserverTest.observerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="observer" />
+    <configuration name="StateTest.testStateChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="state" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="observer.*" />
+          <option name="PATTERN" value="state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="observer" />
-      <option name="MAIN_CLASS_NAME" value="observer.ObserverTest" />
-      <option name="METHOD_NAME" value="observerTest" />
+      <option name="PACKAGE_NAME" value="state" />
+      <option name="MAIN_CLASS_NAME" value="state.StateTest" />
+      <option name="METHOD_NAME" value="testStateChange" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -260,7 +265,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ObserverTest.observerTest" />
+        <item itemvalue="JUnit.StateTest.testStateChange" />
       </list>
     </recent_temporary>
   </component>
@@ -269,20 +274,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="19099d0c-7048-4087-a94b-8d8981c9b1ec" name="Default Changelist" comment="" />
-      <created>1550757849446</created>
+      <changelist id="15061785-b694-4e5e-9b68-543716ebcfa2" name="Default Changelist" comment="" />
+      <created>1550759485012</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1550757849446</updated>
+      <updated>1550759485012</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ObserverTest_observerTest - 2019.02.21 at 22h 17m 31s.xml">
-      <configuration name="ObserverTest.observerTest" configurationId="JUnit" />
+    <history-entry file="StateTest_testStateChange - 2019.02.21 at 22h 49m 10s.xml">
+      <configuration name="StateTest.testStateChange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObserverTest_observerTest - 2019.02.21 at 22h 17m 55s.xml">
-      <configuration name="ObserverTest.observerTest" configurationId="JUnit" />
+    <history-entry file="StateTest_testStateChange - 2019.02.21 at 22h 49m 39s.xml">
+      <configuration name="StateTest.testStateChange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StateTest_testStateChange - 2019.02.21 at 22h 50m 18s.xml">
+      <configuration name="StateTest.testStateChange" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -297,11 +305,11 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32879046" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32879046" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39863715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -316,6 +324,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/state/StateTest.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -324,51 +344,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/observer/Follower.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/state/AbstractState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/state/StateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/state/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/state/AutoAddState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/state/AutoDescState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/observer/ZhangSan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/observer/Star.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/observer/XXStar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/observer/ObserverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -424,7 +443,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>observer</last-edited>
+          <last-edited>state</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
